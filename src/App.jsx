@@ -5,9 +5,15 @@ import {
   Profile,
   Table
 } from "./pages"
+import React, { useState, useEffect } from "react";
+import Ctx from "./tools/context";
+import Api from "./tools/api"
 
 
-function App() {
+
+function App () {
+  
+
   return <>
     <ul className="menu">
       <li>
