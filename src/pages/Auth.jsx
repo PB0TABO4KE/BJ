@@ -17,16 +17,19 @@ function Auth() {
     return <>
         <h1>Авторизация</h1>
 
-        <div style={{ width: "400px" }}>
-            <Input />
-            <hr />
-            <Select values={[1, 2, 3, 4]} />
-            <hr />
-            <Textarea />
-            <hr />
-            <Search />
-        </div>
-    </>
+
+        <button/>
+
+            <div style={{ width: "400px" }}>
+                <Input />
+                <hr />
+                <Select values={[1, 2, 3, 4]} />
+                <hr />
+                <Textarea />
+                <hr />
+                <Search />
+            </div>
+        </>
 }
 
-export { Auth };
+        export {Auth};
